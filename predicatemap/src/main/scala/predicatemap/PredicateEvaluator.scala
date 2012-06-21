@@ -6,14 +6,7 @@ import java.util.concurrent.{ExecutorService, Callable}
 import com.hazelcast.core.{IMap, MultiTask, Hazelcast}
 import clojure.lang.Var
 
-/*
- *    Copyright (c) 2011 XTRAC LLC. All Rights Reserved.
- *
- *    This software and all information contained herein is the property of
- *    XTRAC LLC.  Any dissemination, disclosure, use, or reproduction of this
- *    material for any reason inconsistent with express purpose for which it
- *    has been disclosed is strictly forbidden.
- */
+
 
 class PredicateLister(item: String) extends Callable[String] with Serializable
 {
